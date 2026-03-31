@@ -19,3 +19,4 @@ Cuando se quiere evitar incluir archivos como codigo compilado, archivos generad
 2. editaria el archivo segun sea necesario 
     - armaria bloques con su respectivo comentario para los diferentes tipos de archivos que contendra mi proyecto
 sndzknxcl
+zxczxc
