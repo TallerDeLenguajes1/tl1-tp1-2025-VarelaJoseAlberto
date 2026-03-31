@@ -18,3 +18,4 @@ Cuando se quiere evitar incluir archivos como codigo compilado, archivos generad
 1. Crearia un archivo de text y le asignaria el nombre ".gitignore"
 2. editaria el archivo segun sea necesario 
     - armaria bloques con su respectivo comentario para los diferentes tipos de archivos que contendra mi proyecto
+sndzknxcl
