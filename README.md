@@ -20,3 +20,4 @@ Cuando se quiere evitar incluir archivos como codigo compilado, archivos generad
     - armaria bloques con su respectivo comentario para los diferentes tipos de archivos que contendra mi proyecto
 sndzknxcl
 zxczxc
+cambi3
