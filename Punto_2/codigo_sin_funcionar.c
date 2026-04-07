@@ -1,7 +1,8 @@
+#include <stdio.h>
 // codigo_roto.c
-
-void duplicar_numero(int numero) {
-    numero = numero * 2;
+// Ahora recibe un PUNTERO para poder modificar el original
+void duplicar_numero(int *numero) {
+    *numero = (*numero) * 2;
 }
 
 int main() {
@@ -9,16 +10,20 @@ int main() {
     int valor2;
 
     printf("Ingrese el primer valor: ");
-    scanf("%d", valor1);
+    // ERROR CORREGIDO: Se agrego & para dar la direccion de memoria
+    scanf("%d", &valor1);
 
     printf("Ingrese el segundo valor: ");
     scanf("%d", &valor2);
 
-    int suma = valor1 + valor2
+    // ERROR CORREGIDO: Se agrego ; al final
+    int suma = valor1 + valor2;
     printf("La suma es: %d\n", suma);
 
-    duplicar_numero(valor1);
+    // ERROR CORREGIDO: Se envía la direccion con &
+    duplicar_numero(&valor1);
     printf("El primer valor duplicado es: %d\n", valor1);
 
-    return 0
+    // ERROR CORREGIDO: Se agrego ; al final
+    return 0;
 }
