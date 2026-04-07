@@ -34,5 +34,6 @@
 
 ### Archivos específicos del TP ###
 ignorado.txt
+.pdf
 
 # End of https://www.toptal.com/developers/gitignore/api/executable,visualstudiocode
