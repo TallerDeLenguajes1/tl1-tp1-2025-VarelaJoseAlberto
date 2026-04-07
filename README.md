@@ -47,6 +47,6 @@ Para configurarlo:
 
 # Configuración de VS Code
 .vscode/
-
+```
 [!NOTE] 
 El archivo .gitignore no elimina archivos que ya están siendo seguidos por Git, por lo que debe configurarse antes de hacer git add o eliminar manualmente los archivos del seguimiento.
